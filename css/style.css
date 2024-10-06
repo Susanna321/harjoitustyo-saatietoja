@@ -1,0 +1,56 @@
+body {
+    background-image: url(../photos/pexels-akos-szabo-145938-440731.jpg);                /*background-color: #f8f9fa;*/
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+}
+
+#weatherResult {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,1);
+}
+
+form {
+    font-size: 20px;
+}
+ul li{
+    font-size: 20px;
+    background-color: rgb(29, 60, 240);
+    margin: 5px;
+    border-radius: 5px;
+    border-style: double;
+    padding: 5px;
+}
+
+button {
+    margin: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,1);
+}
+
+label {
+    margin: 5px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bolder;
+}
